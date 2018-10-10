@@ -84,19 +84,18 @@ blockquote {
     position: fixed;
     top: 0;
     bottom: 0;
-    background: #e6d9ce;
+    background: ##e6d9ce;
     z-index: 800;
     text-align: center;
 }
 
 .percentage {
     z-index: 100;
-    color: #c9893b;
+    color: #cc8b38;
     opacity: 1;
     font-weight: 500;
     font-size: 30px;
     line-height: 200px;
-    opacity: .5;
 }
 
 /* Margins */
@@ -243,7 +242,7 @@ blockquote {
 .main-title {
     font-size: 20px;
     line-height: 100px;
-    color: #f40437;
+    color: #cc8b38;
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
@@ -253,7 +252,7 @@ blockquote {
 .hello {
     font-size: 100px;
     font-weight: 600;
-    color:#f40437;
+    color:#cc8b38;
     line-height: 70px;
     text-align: center;
     text-transform: uppercase;
@@ -1428,8 +1427,8 @@ header {
 /*------------------------ 5 Footer ------------------------*/
 
 footer {
-    background: #cc8b38;
-    color: #fff;
+    background: #e6d9ce;
+    color: #f40437;
     bottom: 0;
     width: 100%;
 }
@@ -1440,7 +1439,7 @@ footer p {
 }
 
 .uptotop {
-    color: rgb(97, 97, 97);
+    color: white;
     height: 20px;
     position: relative;
     display: inline-block;
@@ -1468,7 +1467,7 @@ footer p {
 }
 
 .uptotop:hover {
-    color: #fff;
+    color: #f40437;
     transition: color ease .3s;
     -webkit-transition: color ease .3s;
     -moz-transition: color ease .3s;
