@@ -905,6 +905,16 @@ header {
     -webkit-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
 }
 
+.wrapper2 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background: #e6d9ce;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
+}
+
 .single_item {
     overflow: hidden;
     margin-bottom: 30px;
