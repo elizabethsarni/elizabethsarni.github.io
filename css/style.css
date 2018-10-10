@@ -474,6 +474,7 @@ blockquote {
 .cd-transition-layer.visible {
     opacity: 1;
     visibility: visible;
+    color: #f40437;
 }
 
 .cd-transition-layer.opening .bg-layer {
@@ -898,7 +899,7 @@ header {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background: #e6d9ce;
+    background: white;
     box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
     -moz-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
     -webkit-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
@@ -1427,7 +1428,7 @@ header {
 /*------------------------ 5 Footer ------------------------*/
 
 footer {
-    background: #dba307;
+    background: #cc8b38;
     color: #f40437;
     bottom: 0;
     width: 100%;
