@@ -91,7 +91,7 @@ blockquote {
 
 .percentage {
     z-index: 100;
-    color: #cc8b38;
+    color: #f40437;
     opacity: 1;
     font-weight: 500;
     font-size: 30px;
@@ -220,7 +220,7 @@ blockquote {
     content: '';
     width: 100%;
     height: 100%;
-    background: white;
+    background: #e6d9ce;
     position: absolute;
     z-index: -1;
 }
@@ -240,22 +240,30 @@ blockquote {
 }
 
 .main-title {
-    font-size: 20px;
-    line-height: 100px;
+    font-size: 1.1em;
+    line-height: 50px;
     color: #dba307;
-    font-weight: 300;
+    font-weight: 200;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
+    font-family:'Open Sans', sans-serif;
 }
 
 .hello {
-    font-size: 100px;
-    font-weight: 600;
+    font-size: 80px;
+    font-weight: 500;
     color:#f40437;
-    line-height: 70px;
+    line-height: 80px;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
+    letter-spacing: 2px;
+}
+
+.hello2 {
+    width: 500px;
+    height: 100%;
+    text-align: center;
 }
 
 .main-content {
@@ -906,6 +914,16 @@ header {
 }
 
 .wrapper2 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background: #e6d9ce;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.50);
+}
+
+.wrapper3 {
     position: relative;
     z-index: 1;
     overflow: hidden;
