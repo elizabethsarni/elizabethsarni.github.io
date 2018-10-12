@@ -1108,7 +1108,7 @@ header {
 }
 
 .about-text span {
-    color: #0067ff;
+    color: #f40437;
 }
 
 .services .service i {
@@ -1151,18 +1151,20 @@ header {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #0067ff;
+    background: #f40437;
 }
 
 .list-style li {
     color: #fff;
-    font-size: 11px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .list-style li a {
     color: #fff;
-    font-size: 11px;
+    font-size: 13px;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .list-style li a span {
@@ -1172,7 +1174,7 @@ header {
 }
 
 .list-style li a:hover > span {
-    color: #0067ff;
+    color: #f40437;
     transition: color ease 0.3s;
     -webkit-transition: color ease 0.3s;
     -moz-transition: color ease 0.3s;
@@ -1180,9 +1182,9 @@ header {
 
 .list-style li span {
     display: block;
-    font-weight: 400;
-    color: #6d6d6d;
-    font-size: 12px;
+    font-weight: 300;
+    color: black;
+    font-size: 13px;
     line-height: 24px;
 }
 
@@ -1245,7 +1247,7 @@ header {
 
 .blog-categories a {
     margin-right: 5px;
-    color: #0067ff;
+    color: #f40437;
 }
 
 .blog-title {
@@ -1346,7 +1348,7 @@ header {
 
 .form-btn {
     color: #fff;
-    background: #0122ee;
+    background: #f40437;
     padding: 15px 55px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -1361,7 +1363,7 @@ header {
 }
 
 .form-btn:hover {
-    background: #0321d2;
+    background: #f40437;
     transition: all ease 0.4s;
     -webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
@@ -1377,13 +1379,15 @@ header {
 .next-link .nav-title {
     color: #fff;
     font-size: 33px;
-    font-weight: 600;
+    font-weight: 300;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .next-link .next-title {
     color: #f40437;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 300;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .next-link .next-title,
