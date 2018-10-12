@@ -241,11 +241,11 @@ blockquote {
 
 .main-title {
     font-size: 1.1em;
-    line-height: 50px;
+    line-height: 30px;
     color: #dba307;
     font-weight: 200;
     text-align: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     font-family:'Open Sans', sans-serif;
 }
 
@@ -265,6 +265,17 @@ blockquote {
     font-weight: 500;
     color:white;
     line-height: 20px;
+    text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
+    letter-spacing: 2px;
+}
+
+.hello3 {
+    font-size: 50px;
+    font-weight: 500;
+    color:#f40437;
+    line-height: 80px;
+    text-align: center;
     text-transform: uppercase;
     font-family: 'Hammersmith One', sans-serif;
     letter-spacing: 2px;
@@ -1090,8 +1101,8 @@ header {
 }
 
 .about-text {
-    font-size: 26px;
-    color: #fff;
+    font-size: 21px;
+    color: #dba307;
     line-height: 45px;
     font-weight: 400;
 }
@@ -1364,13 +1375,13 @@ header {
 }
 
 .next-link .nav-title {
-    color: #797979;
+    color: #fff;
     font-size: 33px;
     font-weight: 600;
 }
 
 .next-link .next-title {
-    color: #fff;
+    color: #f40437;
     font-size: 30px;
     font-weight: 600;
 }
