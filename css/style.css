@@ -200,7 +200,7 @@ blockquote {
 /*------------------------ 2 Home ------------------------*/
 
 .main {
-    background: url(../img/person-bg.jpg) no-repeat;
+    background: url(.../img/sf_birdeye-lr.jpg) no-repeat;
     background-size: cover;
     display: table;
     width: 100%;
@@ -208,12 +208,12 @@ blockquote {
 }
 
 .main.agency{
-    background: url(../img/agency-bg.jpg) no-repeat;
+    background: url(.../img/sf_birdeye-lr.jpg) no-repeat;
     background-size: cover;
 }
 
 .main.video{
-    background: none;
+    background-image: url(.../img/sf_birdeye-lr.jpg);
 }
 
 .main.video:before{
@@ -1460,7 +1460,7 @@ header {
 /*------------------------ 5 Footer ------------------------*/
 
 footer {
-    background: #cc8b38;
+    background: #e6d9ce;
     color: #f40437;
     bottom: 0;
     width: 100%;
