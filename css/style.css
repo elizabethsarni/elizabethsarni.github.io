@@ -393,7 +393,7 @@ blockquote {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.3) url(../img/cd-icon-close.svg) no-repeat center center;
+    background: white url(../img/cd-icon-close.svg) no-repeat center center;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
@@ -411,7 +411,7 @@ blockquote {
 
 
 .no-touch .full-menu .modal-close:hover {
-    background-color: #cc8b38;
+    background-color: none;
 }
 
 .no-cssanimations .cd-transition-layer {
