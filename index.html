@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
 
-    <title>Tetris - Ajax Based Portfolio Template</title>
+    <title>Tetris - Minimal Ajax Portfolio Template Grid </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Perfect masonry isotope portfolio template. Masonry portfolio examples. Build your portfolio with soho template." />
-    <meta name="keywords" content="ajax portfolio, portfolio design, portfolio template, minimal portfolio, masonry isotope portfolio " />
+    <meta name="description" content="Perfect masonry isotope portfolio template. Masonry portfolio examples. Build your portfolio with berger template." />
+    <meta name="keywords" content="masonry portfolio, portfolio design, portfolio template, minimal portfolio, masonry isotope portfolio " />
     <meta name="author" content="ClaPat Studio">
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         
-	<link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
     <link href="style.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>     
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,600" rel="stylesheet">    
    
 </head>
     
@@ -23,361 +23,446 @@
 
 
 
-<body class="animsition">
+<body class="hidden">
+
+	<main>
     
     
+	<div class="cd-index cd-main-content">
+	
+	<!-- Page Content -->
+	<div id="page-content" class="" data-bgcolor="#fff" data-textcolor="#000">
+    	
+        <div class="page-overlay from-bottom">
+            <div class="animate-box-bottom"></div>
+            <div class="animate-box-left"></div>
+        </div>
     
-    <header class="hidden scroll-hide">
-    
-    	<div id="header-container">
-    
-            <div id="logo"><a class="animation-link" href="index.html"><img src="images/logo.png" alt=""></a></div>
-            
-            <div id="nav-menu">
-                <span class="btn_menu_line"></span>
-                <span class="btn_menu_line"></span>
-                <span class="btn_menu_line"></span>
+        <!-- Header -->
+        <header class="scroll-hide">
+            <div id="header-container">
+        
+            <!-- Logo -->
+            <div id="logo">
+                <a class="ajax-link" data-type="page-transition" href="index.html">
+                    <img class="black-logo" src="images/logo.png" alt="Logo Black">
+                    <img class="white-logo" src="images/logo-white.png" alt="Logo White">
+                </a>
             </div>
+            <!--/Logo -->
             
-            <nav>
-                
+            <div class="menu-info">Our Works</div> 
+            
+            <!-- Menu Burger Dots -->
+            <div id="menu-burger-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!--/Menu Burger Dots-->            
+            
+            <!-- Navigation -->
+            <nav>            
                 <ul data-breakpoint="1024" class="flexnav">
-                    <li class="menu-item"><a class="animation-link active" href="index.html">Documentation</a></li>
-                    <li class="menu-item"><a class="animation-link" href="credits.html">Credits</a></li>
-                    <li class="menu-item"><a target="_blank" href="http://themeforest.net/user/clapat/portfolio">Themes</a></li>
-                </ul>
-            
+                    <li><a class="active" href="">Portfolio</a>
+                      <ul>
+                        <li><a class="ajax-link active" href="index.html" data-type="page-transition">Visible Text</a></li>
+                        <li><a class="ajax-link" href="portfolio01.html" data-type="page-transition">Black Overlay</a></li>
+                        <li><a class="ajax-link" href="portfolio02.html" data-type="page-transition">Packery Text</a></li>
+                        <li><a class="ajax-link" href="portfolio03.html" data-type="page-transition">Packery Overlay</a></li>
+                      </ul>
+                    </li>                    
+                    <li><a class="ajax-link" href="about.html" data-type="page-transition">About Us</a></li>                    
+                    <li><a class="ajax-link" href="contact.html" data-type="page-transition">Contact</a></li>                    
+                    <li><a href="https://themeforest.net/user/clapat/portfolio" target="_blank">Buy Now</a></li>                
+                </ul>            
             </nav>
-        
-        </div>
-    
-    </header>
-    
-    
-    
-    
-    <div id="hero" class="hidden hero-big"><div id="hero-styles" class="prl opc">
-    
-    	<!-- Full Screen Image -->
-        <div class="hero-image" style="background-image:url(images/1.jpg)">
-            <div class="overlay" style="background-color:rgba(0,0,0,0.85)">
-                <!-- Image Caption -->
-                <div class="clapat-caption light-content">
-                    <div class="caption-content center-center">
-                    
-                    	<h1>Maestro Template Documentation</h1><br>
-                        <p>Created: 26/09/2017  -  Updated 26/09/2017</p><br>
-                        <a class="clapat-button outline-button scroll" href="#main">Let's Start</a>
-                                            	                            
-                    </div>
-                </div>
-                <!--/Image Caption -->
-            </div>
-        </div>
-        <!--/Full Screen Image -->
-    
-    </div></div>
-    
-    
-    
-    
-    <!-- Main --> 
-    <div id="main">
-        
-        <div class="container">
-        
-        	
-             <!-- Documentation Content --> 
-             <div class="doc-content">
-             
-             	<h4>Installation</h4>
+            <!--/Navigation -->            
             
-                <p>After unzip template Files, you will found <strong>www</strong> folder that include all the temeplate files.<br><br>
-
-You can view this template in any web browser from your desktop computer. Because some js files are external, you need an internet connection to display correctly the template.<br><br>
-
-Start your FTP client (I persoanlly use Total Commander) and login. Login to your server. You will need your server name (often times this will be your domain name), username, and password that you setup with the hosting company.<br><br>
-
-Locate the domain folder you wish to upload your Theme files to on your server. You are going to want to click and drag every file into your FTP client. </p>
+            <!-- Menu Burger -->
+            <div id="menu-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!--/Menu Burger -->
+        
+            </div>
+        </header>
+        <!--/Header -->
+        
+        
+        <!-- Menu Overlay -->
+        <div id="menu-overlay">
+            
+            <div class="outer">
+                <div class="inner">
                 
-                
-                
-                
-                
-                <hr class="line">
-                
-                
-                
-                
-                
-                
-                <h4>Body Options</h4><br>
-                
-				<p>Changing the page background and text color</p>
-                
-                <pre class="brush: js; toolbar: false; gutter: false;">                    
-               	
-                	<div id="page-content" class="" data-bgcolor="#fff" data-textcolor="#000">
+                    <div id="close-menu"></div>
                     
+                    <!-- Showcase Gallery -->
+                    <div id="showcase-gallery">                
+                        <div class="showcase-img" data-aux="project-01"><img src="images/1.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-02"><img src="images/2.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-03"><img src="images/3.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-04"><img src="images/4.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-05"><img src="images/5.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-06"><img src="images/6.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-07"><img src="images/7.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-08"><img src="images/8.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-09"><img src="images/9.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-10"><img src="images/10.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-11"><img src="images/11.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-12"><img src="images/12.jpg" alt="Image"></div>
+                        <div class="showcase-img" data-aux="project-13"><img src="images/13.jpg" alt="Image"></div>                
                     </div>
-                                    
-                </pre>
-                
-                
-				<code>data-bgcolor="#fff"</code><br><br>
-				<p>Background Page Color</p>
-                
-                <code>data-textcolor="#000"</code><br><br>
-				<p>Page Titles Color</p>
-                
-                <code>.light-content</code><br><br>
-				<p>Add this class to <strong>#page-content</strong> if the background color is darker</p>
-                
-                
-                
-                
-                
-                <hr class="line">
-                
-                
-                
-                
-                
-                <h4>The Logo</h4><br>
-                
-				<p>This template require 2 logo images. Negative and positive versions</p>
-                
-                <pre class="brush: js; toolbar: false; gutter: false;">                    
-               	
-                	<div id="logo">
-                        <a href="index.html">
-                            <img class="black-logo" src="images/logo.png" alt="Logo Black">
-                            <img class="white-logo" src="images/logo-white.png" alt="Logo White">
-                        </a>
-                    </div>
-                                    
-                </pre>
-                
-                
-				<p>The negative version will appear on darker page background.</p>
-                
-                
-                
-                
-                
-                <hr class="line">
-                
-                
-                
-                
-                
-                
-                <h4>Portfolio Options</h4><br>
-                
-				<p>The page is divided into 2 blocks. The content and the projects images.</p>
-                
-                <pre class="brush: js; toolbar: false; gutter: false;">                    
-               	
-                	<div id="portfolio-wrap" class="">
+                    <!--/Showcase Gallery -->
                     
-                    	<div id="portfolio" class="">
                     
-                    	... Items Here ...
                     
-                    	</div>
-                    
-                    </div>
-                                    
-                </pre>
-                
-                
-                <code>.overlay-hover</code><br><br>
-				<p>Add this class to <strong>#portfolio-wrap</strong> for Black Overlay hover caption</p>
-                
-                <br>
-                
-                <p>Leave empty for Visible Text hover caption</p>
-                
-                
-                
-                <hr class="line">
-                
-                
-                
-                
-                
-                
-                <h4>Hero Section</h4><br>
-                
-                <p>Here is the Hero structure</p>
-                
-                <pre class="brush: js; toolbar: false; gutter: false;">                    
-               	<div id="hero">
-                    <div id="hero-styles" class="parallax-onscroll opacity-onscroll">
-                        <div id="hero-caption">
-                            <div class="inner text-align-center">
-                            	<div class="hero-subtitle">Hero Subtitle</div>
-                                <div class="hero-title">Hero Title</div>
+                    <!-- Showcase List -->
+                    <div id="showcase">
+                        <div class="outer">
+                            <div class="inner">
+                                <ul class="showcase-list">
+                                    <li><a href="project01.html" class="ajax-link" data-type="page-transition" data-aux="project-01">Sport Black<span>Photography</span></a></li>
+                                    <li><a href="project02.html" class="ajax-link" data-type="page-transition" data-aux="project-02">Cairs Root<span>Design</span></a></li>
+                                    <li><a href="project03.html" class="ajax-link" data-type="page-transition" data-aux="project-03">Deals App<span>Web Design</span></a></li>
+                                    <li><a href="project04.html" class="ajax-link" data-type="page-transition" data-aux="project-04">Opulence<span>Branding</span></a></li>
+                                    <li><a href="project05.html" class="ajax-link" data-type="page-transition" data-aux="project-05">Welcome Pleix<span>Video</span></a></li>
+                                    <li><a href="project06.html" class="ajax-link" data-type="page-transition" data-aux="project-06">Pinpil App<span>Web Design</span></a></li>
+                                    <li><a href="project07.html" class="ajax-link" data-type="page-transition" data-aux="project-07">The Ghost<span>Photography</span></a></li>
+                                    <li><a href="project08.html" class="ajax-link" data-type="page-transition" data-aux="project-08">Kangoroo<span>Branding</span></a></li>
+                                    <li><a href="project09.html" class="ajax-link" data-type="page-transition" data-aux="project-09">Flower Power<span>Art Illustration</span></a></li>
+                                    <li><a href="project10.html" class="ajax-link" data-type="page-transition" data-aux="project-10">Owey Dewy<span>Branding</span></a></li>
+                                    <li><a href="project11.html" class="ajax-link" data-type="page-transition" data-aux="project-11">Zoldi Jewels<span>Branding</span></a></li>
+                                    <li><a href="project12.html" class="ajax-link" data-type="page-transition" data-aux="project-12">Belforte Fall<span>Photography</span></a></li>
+                                    <li><a href="project13.html" class="ajax-link" data-type="page-transition" data-aux="project-13">Lux Car Air<span>Art Illustration</span></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </div>            
-                <div id="hero-height" class="hidden"></div>                
-                </pre>
-                
-                
-                <code>.hero-title</code><br><br>
-				<p>Add your page title here</p>
-                
-                <code>.hero-subtitle</code><br><br>
-				<p>Add your page subtitle here</p>
-                
-                
-                
-                
-                <hr class="line">
-                
-                
-                
-                
-                
-                
-                <h4>Hero Image Ssection</h4><br>
-                
-                <p>Here is the showcase list structure</p>
-                
-                <pre class="brush: js; toolbar: false; gutter: false;">                    
-                    <div id="hero-image" class="hidden" style="background-image:url(images/projects/01hero.jpg)">
-                        <div id="image-border-left"></div>
-                        <div id="image-border-right"></div>
-                    </div>                
-                </pre>
-                
-                <code>#hero-image</code><br><br>
-				<p>Set your hero image url here</p>
-                
-                
-                
-                
-                
-               
-                
-                
-                
-                
-                
-                <hr class="line">
-                
-                
-                
-                
-                <h4>Smooth Scroll</h4><br>
-                
-                <p>In js/scripts.js remvoe the <strong>//</strong> before VirtualScr(); at line 11</p>
-                
-                <pre class="brush: js; toolbar: false; gutter: false;">                    
-               	
-                	//VirtualScr();
-                                   
-                </pre>
-                
-                
-                
-                
-                
-                
-                <hr class="line">
-                
-                
-                
-                
-                <h4>Page Row Section</h4><br>
-                
-                <p>Below you will find the <strong>vc_row</strong> extra classes and options</p>
-                
-                <pre class="brush: js; toolbar: false; gutter: false;">                    
-               	<div class="vc_row">
-                	<div class="container">
-                    ...
-                    </div>        
-                </div>                    
-                </pre>
-                
-                <code>.small</code><br><br>
-				<p>Will decrease the container width</p>
-                
-                <code>.full</code><br><br>
-				<p>Will make the container full width</p>
-                
-                <code>.row_padding_top</code><br><br>
-				<p>Add padding to top</p>
-                
-                <code>.row_padding_bottom</code><br><br>
-				<p>Add padding to bottom</p>
-                
-                
-                
-                
-                
-                
-                
-                
-			
-                
-             
-             </div>
-             <!--/Documentation Content -->   
-             
-             
-             
-             
-             
-             
-             
-        
-        </div>
-
-    </div>
-    <!--/Main -->
-    
-    
-    
-    <!-- Footer -->
-    <footer>
-    
-    	<div id="footer-container">
-            
-            <div class="outer">        
-                <div class="inner">
-                
-                    <div class="scrolltotop"><span class='holder'></span></div>                    
-                        
-                    <p class="copyright">2017 &copy; ClaPat Themes. All rights Reserved.</p>         
+                    <!--/Showcase List --> 
                     
-                    <ul class="socials">   
-                    	<li><a target="_blank" href="https://facebook.com/clapat.ro" class="link"><i class="fa fa-facebook"></i></a></li>
-                        <li><a target="_blank" href="https://dribbble.com/ClaPat" class="link"><i class="fa fa-dribbble"></i></a></li> 	
-                        <li><a target="_blank" href="https://twitter.com/clapatdesign" class="link"><i class="fa fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="https://www.behance.net/clapat" class="link"><i class="fa fa-behance"></i></a></li>
-                    </ul>
-                
-                </div>        
+                    
+                    <p class="copyright">2017 © <a target="_blank" href="https://www.clapat.com/themes/tetris/">Tetris Theme</a>. Design by <a target="_blank" href="https://www.clapat.com/">Clapat</a>.</p>               
+                    
+                </div>
             </div>
-            
-        </div>
         
-    </footer>
-    <!--/Footer -->
+        </div>
+        <!-- Menu Overlay -->
+        
+        
+        <!-- Portfolio Filters -->
+        <div class="page-action-overlay">
+            <div class="outer">
+                <div class="inner">
+                    <div class="close-page-action"></div>
+                    <ul id="filters">
+                        <li><a id="all" href="#" data-filter="*" class="active">All</a><span>07</span></li>
+                        <li><a href="#" data-filter=".branding">Branding</a><span>03</span></li>
+                        <li><a href="#" data-filter=".design">Design</a><span>03</span></li>
+                        <li><a href="#" data-filter=".web">Web</a><span>01</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--/Portfolio Filters -->
+        
+        
+        <!-- Main -->
+        <div id="main">
+        
+        	
+            <!-- Hero Section -->
+            <div id="hero">
+                <div id="hero-styles" class="parallax-onscroll opacity-onscroll">
+                    <div id="hero-caption">
+                        <div class="inner">
+                            <div class="hero-subtitle">Creating digital products for creative peoples.</div>
+                            <div class="hero-title">We are a <ins>creative agency</ins> based in New York</div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div id="hero-height" class="hidden"></div>
+            <!--/Hero Section -->
+            
+            
+            <!-- Main Content -->
+            <div id="main-content">
+                           
+                
+                <!-- Portfolio Wrap -->
+                <div id="portfolio-wrap" class="visible-text">
+                	
+                    <!-- Portfolio Columns -->
+                    <div id="portfolio" data-col="3">
+                  
+                  	<div class="item photography">                    	
+                        <div class="item-content">
+                            <a href="project01.html" class="project-link" data-type="page-transition">
+                                <img class="item-img" src="images/1.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Sport Black</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Photography</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item design">                    	
+                        <div class="item-content">
+                            <a href="project02.html" class="project-link" data-type="page-transition">
+                                <img class="item-img" src="images/2.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Cairs Root</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Design</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item web">                    	
+                        <div class="item-content large">
+                            <a href="project03.html" class="project-link" data-type="page-transition">
+                                <img class="item-img" src="images/3.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Deals App</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Web Design</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item branding">                    	
+                        <div class="item-content">
+                            <a href="project04.html" class="project-link" data-type="page-transition">
+                                <img class="item-img" src="images/4.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Opulence</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Branding</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item photography">                    	
+                        <div class="item-content large">
+                            <a href="project05.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/5.gif" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Welcome Pleix</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Video</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item web">                    	
+                        <div class="item-content">
+                            <a href="project06.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/6.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Pinpil App</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Web Design</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item photography">                    	
+                        <div class="item-content large">
+                            <a href="project07.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/7.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">The Ghost</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Photography</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item branding">                    	
+                        <div class="item-content">
+                            <a href="project08.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/8.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Kangoroo</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Branding</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item design">                    	
+                        <div class="item-content">
+                            <a href="project09.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/9.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Flower Power</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Design</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item branding">                    	
+                        <div class="item-content">
+                            <a href="project10.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/10.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Owey Dewy</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Branding</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item branding">                    	
+                        <div class="item-content large">
+                            <a href="project11.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/11.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Zoldi Jewels</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Branding</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item photography">                    	
+                        <div class="item-content">
+                            <a href="project12.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/12.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Belforte Fall</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Photography</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item design">                    	
+                        <div class="item-content">
+                            <a href="project13.html" class="ajax-link" data-type="page-transition">
+                                <img class="item-img" src="images/13.jpg" alt="Image">
+                            </a>
+                            <div class="item-caption">
+                                <div class="item-title">Lux Car Air</div>
+                                <div class="item-sub-mask">
+                                    <div class="item-cat">Design</div>
+                                    <div class="item-case">View Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        
+                    
+                  </div>
+                  <!--/Portfolio -->
+                  
+                </div>
+                <!--/Portfolio Wrap -->
+            
+                        
+            </div>
+        </div>
+        <!--/Main -->       
+        
+        
+        <!-- Footer -->
+        <footer class="hidden">
+        	
+            
+	    	<div id="page-action-holder" data-tooltip="View Filters" data-placement="top">
+                <div id="open-filters">                                                    
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 80 80" xml:space="preserve">
+                        <circle class="circle-action is-inner" cx="40" cy="40" r="36" />
+                        <circle class="circle-action is-outer" cx="40" cy="40" r="36" />
+                    </svg>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>                        	
+            </div>
+        
+            <ul class="socials-text has-animation" data-delay="10">
+                <li><a href="http://www.facebook.com/clapat" target="_blank">Facebook</a></li>
+                <li><a href="http://www.twitter.com/clapatdesign" target="_blank">Twitter</a></li>
+                <li><a href="http://www.dribbble.com/clapat" target="_blank">Dribbble</a></li>
+                <li><a href="http://www.behance.net/clapat" target="_blank">Behance</a></li>
+            </ul>
+            
+            
+	    <div class="progress-page">
+                <div class="scrolltotop is-active is-visible" data-tooltip="Back to Top" data-placement="top">
+                	<div class="arrow-top"></div>
+                    <div class="arrow-top-line"></div>
+                </div>
+                <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                </svg>
+            </div>
+        
+        
+        </footer>
+        <!--/Footer -->
+ 
+ 
+	</div>    
+	<!--/Page Content -->
     
-   
-
-
+    </div>
+</main>
     
     
+    <div class="cd-cover-layer"></div>
     
-
 		
-	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/scripts.js"></script>
 
