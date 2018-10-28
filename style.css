@@ -1772,7 +1772,7 @@ Primary use:	Showcase Portfolio
 		height: 46px;
 		width: 46px;
 		border-radius:50px;
-		box-shadow: inset  0 0 0 1px rgba(0,0,0,0.2);
+		box-shadow: inset  0 0 0 1px #e6d9ce;
 		opacity:0;
 		z-index:10;
 		-webkit-transform: scale(0.8);
@@ -1804,7 +1804,7 @@ Primary use:	Showcase Portfolio
 	}
 
 	.progress-page svg.progress-circle path {
-		stroke: rgba(0, 0, 0, 1);
+		stroke: #f40437;
 		stroke-width: 3;
 		box-sizing:border-box;
 	}
