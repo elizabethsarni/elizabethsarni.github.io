@@ -1740,11 +1740,11 @@ Primary use:	Showcase Portfolio
 	
 	.circle-action {
 	  	fill: transparent;
-	  	stroke: #000;
+	  	stroke: #f40437;
 	}
 	
 	.light-content .circle-action, .light-content.color-content .circle-action {
-		stroke: #fff;
+		stroke: #e6d9ce;
 	}
 	
 	.is-inner{
