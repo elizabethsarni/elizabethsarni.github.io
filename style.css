@@ -36,7 +36,7 @@ Primary use:	Showcase Portfolio
 		height:100%;
 		width:100%;
 		color:#777777;
-		background-color:#000;
+		background-color:#e6d9ce;
 	}
 	
 	html {
@@ -681,7 +681,7 @@ Primary use:	Showcase Portfolio
 	  transition: -webkit-transform .0s;
 	  transition: transform .0s;
 	  transition: transform .0s, -webkit-transform .0s;
-	  background-color: #000;
+	  background-color: #e6d9ce;
 	}
 	.page-overlay .animate-box-bottom {
 	  -webkit-transform: translateY(101%);
@@ -712,7 +712,7 @@ Primary use:	Showcase Portfolio
 	  transition: -webkit-transform .0s;
 	  transition: transform .0s;
 	  transition: transform .0s, -webkit-transform .0s;
-	  background-color: #000;
+	  background-color: #e6d9ce;
 	}
 	
 	.page-overlay .animate-box-left {
@@ -891,7 +891,7 @@ Primary use:	Showcase Portfolio
 		height: 1px;
 		position: absolute;
 		content: "";
-		background-color: rgba(0,0,0,0.2);
+		background-color: rgba(244,4,55,0.2);
 		left: -50px;
 		bottom: 30px;
 	}
@@ -911,7 +911,7 @@ Primary use:	Showcase Portfolio
 		border-left: medium none;
 		font-weight: 500;
 		font-family: 'Poppins', sans-serif;
-		color:#000;		
+		color:#e6d9ce;		
 		font-size:14px;
 		-webkit-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
@@ -922,11 +922,11 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.flexnav:hover li a {
-		color: rgba(0,0,0,0.4);
+		color: rgba(230,217,206,0.4);
 	}
 	
 	.flexnav li:hover a {
-		color:#000;
+		color:#f40437;
 	}
 	
 	.light-content .flexnav:hover li a {
@@ -1048,7 +1048,7 @@ Primary use:	Showcase Portfolio
 	  position: absolute;
 	  height: 2px;
 	  width: 100%;
-	  background: #000;
+	  background: #f40437;
 	  opacity: 1;
 	  right: 0;
 	  -webkit-transform: rotate(0deg);
@@ -1066,7 +1066,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.menu-open.light-content #menu-burger span, .initial.light-content #menu-burger span {
-		background:#000;
+		background:#f40437;
 	}
 
 	#menu-burger span:nth-child(1) {
@@ -1159,7 +1159,7 @@ Primary use:	Showcase Portfolio
 	#menu-burger-dots span {
 		height: 4px;
 		width: 4px;
-		background-color: #000;
+		background-color: #f40437;
 		border-radius: 4px;
 		display: block;
 		float: left;
@@ -1839,8 +1839,8 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.arrow-top {
-		border-bottom: 2px solid #000;
-		border-left: 2px solid #000;
+		border-bottom: 2px solid #f40437;
+		border-left: 2px solid #f40437;
 		height: 6px;
 		transform: rotate(135deg);
 		width: 6px;
@@ -1850,7 +1850,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.arrow-top-line {
-		background-color: #000;
+		background-color: #f40437;
 		height: 14px;
 		left: 50%;
 		position: absolute;
