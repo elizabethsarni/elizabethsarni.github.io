@@ -1621,7 +1621,7 @@ Primary use:	Showcase Portfolio
 		margin-left: 0px;
 		list-style:none;
 		display:inline-block;
-		color:#999;
+		color: #e6d9ce;
 		font-size:15px;
 		margin-bottom:0;
 		line-height:30px;
@@ -1643,7 +1643,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.light-content .socials-text li::after {
-		background-color:rgba(255,255,255,0.2);
+		background-color: #e6d9ce;
 	}
 
 	
@@ -1652,7 +1652,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.socials-text li a {
-		color: #000;		
+		color: #e6d9ce;		
 		font-size:14px;
 		font-weight: 500;
 		font-family: 'Poppins', sans-serif;
@@ -1662,15 +1662,15 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.socials-text:hover li  a {
-		color: #ccc;
+		color: #e6d9ce;
 	}
 	
 	.light-content .socials-text:hover li  a {
-		color: rgba(255,255,255,0.3);
+		color: #e6d9ce;
 	}
 	
 	.socials-text li a:hover {
-		color: #000;
+		color: #f40437;
 	}
 	
 	.light-content .socials-text li a {
