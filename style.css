@@ -459,7 +459,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.light-content p {
-		color:rgba(255,255,255,0.5);
+		color:rgba(255,255,255);
 	}
 	
 	.title-has-line {
@@ -1573,7 +1573,7 @@ Primary use:	Showcase Portfolio
 		bottom:0;
 		opacity:0;
 		visibility:hidden;
-		background-color:pink);
+		background-color:rgba(0,0,0,0.85);
 		-webkit-transition: all 0.2s ease-in-out 0.5s;
 		transition: all 0.2s ease-in-out 0.5s;
 	}
