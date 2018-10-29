@@ -308,7 +308,7 @@
 		bottom:0;
 		height: 100%;
 		box-sizing: border-box;
-		background-color:rgba(0,0,0,0.7);
+		background-color:rgba(230,217,206,0.9);
 		opacity:0;
 		-webkit-transition: all 0.4s ease;
 		transition: all 0.4s ease;
@@ -333,7 +333,7 @@
 	.overlay-hover .item-cat {
 		font-size: 12px;
 		line-height:20px;
-		color:rgba(255,255,255,0.5);
+		color:black;
 		margin-bottom:5px;			
 	}
 	
@@ -365,7 +365,7 @@
 	
 	.overlay-hover .item-title {
 		line-height:30px;
-		color:#fff;			
+		color:#FF1B0B;			
 	}
 	
 	.overlay-hover .item:first-child .item-title::after {
