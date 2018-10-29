@@ -374,6 +374,7 @@
 	
 	.overlay-hover .item-title span {
 		display: inline-block;
+		text-transform: uppercase;
 		margin:0 3px;
 		line-height: 30px;
 		height: 30px;
