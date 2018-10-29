@@ -250,7 +250,7 @@
 	.item-title {
 		font-weight: 600;
 		font-family: 'Poppins', sans-serif;
-		font-size:24px;
+		font-size:18px;
 		color:#000;
 		margin-left:-1px;
 	}
@@ -276,7 +276,7 @@
 	.item-cat {
 		font-size: 12px;
 		font-weight:400;
-		line-height:20px;
+		line-height:10px;
 		color:rgba(0,0,0,0.5);
 		-webkit-transition: all 0.25s ease-in-out;
 		transition: all 0.25s ease-in-out;
@@ -287,7 +287,7 @@
 	}
 	
 	.item-content:hover .item-cat {
-		margin-top:-20px;		
+		margin-top:-25px;		
 	}
 	
 	.item-case {
@@ -364,8 +364,9 @@
 	}
 	
 	.overlay-hover .item-title {
-		line-height:30px;
-		color:#FF1B0B;			
+		line-height:25px;
+		color:#FF1B0B;
+		letter-spacing: 0.1em;			
 	}
 	
 	.overlay-hover .item:first-child .item-title::after {
@@ -375,6 +376,7 @@
 	.overlay-hover .item-title span {
 		display: inline-block;
 		text-transform: uppercase;
+		font-family: 'Oswald', sans-serif;
 		margin:0 3px;
 		line-height: 30px;
 		height: 30px;
