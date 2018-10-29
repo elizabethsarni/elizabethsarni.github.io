@@ -1573,7 +1573,7 @@ Primary use:	Showcase Portfolio
 		bottom:0;
 		opacity:0;
 		visibility:hidden;
-		background-color:rgba(0,0,0,0.85);
+		background-color:pink);
 		-webkit-transition: all 0.2s ease-in-out 0.5s;
 		transition: all 0.2s ease-in-out 0.5s;
 	}
