@@ -262,7 +262,7 @@
 		position: absolute;
 		font-weight: 400;
 		margin-left: 10px;
-		color: #FF1B0B;
+		color: black;
 	}
 	
 	.item-sub-mask {
@@ -365,7 +365,7 @@
 	
 	.overlay-hover .item-title {
 		line-height:25px;
-		color:#FF1B0B;
+		color:white;
 		letter-spacing: 0.1em;			
 	}
 	
