@@ -1262,7 +1262,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	#showcase-gallery .showcase-img.active {
-	  opacity: 1;
+	  opacity: 0.5;
 	  visibility: visible;
 	  -webkit-transform: scale(1);
 		transform: scale(1);
