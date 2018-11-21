@@ -71,6 +71,7 @@
 		display:inline-block;
 		color:#fff;
 		font-family: 'Oswald', sans-serif;
+		letter-spacing: .05em;
 		font-size: 24px;
 		font-weight: 600;
 		z-index:15;
@@ -250,6 +251,7 @@
 	.item-title {
 		font-weight: 600;
 		font-family: 'Oswald', sans-serif;
+		letter-spacing: .05em;
 		font-size:18px;
 		color:#000;
 		margin-left:-1px;
@@ -377,6 +379,7 @@
 		display: inline-block;
 		text-transform: uppercase;
 		font-family: 'Oswald', sans-serif;
+		letter-spacing: .05em;
 		margin:0 3px;
 		line-height: 30px;
 		height: 30px;
@@ -481,11 +484,13 @@
 		display:inline-block;
 		color: #f40437;
 		text-transform: uppercase;
+		letter-spacing: .05em;
 	}
 	
 	.nav-project-title {
 		font-weight: 600;
 		font-family: 'Oswald', sans-serif;
+		letter-spacing: .05em;
 		font-size:26px;
 		line-height:40px;	
 		display:inline-block;
