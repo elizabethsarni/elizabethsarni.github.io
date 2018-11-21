@@ -70,7 +70,7 @@
 	#filters li a {
 		display:inline-block;
 		color:#fff;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
 		font-size: 24px;
 		font-weight: 600;
 		z-index:15;
@@ -249,7 +249,7 @@
 	
 	.item-title {
 		font-weight: 600;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
 		font-size:18px;
 		color:#000;
 		margin-left:-1px;
@@ -454,11 +454,10 @@
 	
 	#project-nav {
 		width: 100%;
-		height: 120px;
+		height: 50px;
 		overflow: hidden;
 		text-align: center;
 		box-sizing: border-box;
-		color: #000;
 		position: relative;
 		max-width: 600px;
 		margin: 0 auto;
@@ -467,7 +466,7 @@
 	}
 	
 	#project-nav a{
-		color:#000;
+		color: #000;
 	}
 	
 	.light-content #project-nav .nav-title, .light-content.color-content #project-nav .nav-title, .light-content #project-nav .nav-project-title, .light-content.color-content #project-nav .nav-project-title {
@@ -476,17 +475,19 @@
 	
 	.nav-title {
 		font-weight: 600;
-		font-family: 'Poppins', sans-serif;
-		font-size:80px;
-		line-height:120px;	
+		font-family: 'Oswald', sans-serif;
+		font-size:40px;
+		line-height:40px;	
 		display:inline-block;
+		color: #f40437;
+		text-transform: uppercase;
 	}
 	
 	.nav-project-title {
 		font-weight: 600;
-		font-family: 'Poppins', sans-serif;
-		font-size:36px;
-		line-height:120px;	
+		font-family: 'Oswald', sans-serif;
+		font-size:26px;
+		line-height:40px;	
 		display:inline-block;
 	}
 	

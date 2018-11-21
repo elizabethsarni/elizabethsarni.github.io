@@ -406,7 +406,9 @@ Primary use:	Showcase Portfolio
 		
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;	
 		color:#000;
 		margin-bottom:10px;
 	}
@@ -910,7 +912,9 @@ Primary use:	Showcase Portfolio
 		position:relative;
 		border-left: medium none;
 		font-weight: 500;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;	
 		color:#e6d9ce;		
 		font-size:14px;
 		-webkit-transition: all 0.3s ease-in-out;
@@ -1123,7 +1127,9 @@ Primary use:	Showcase Portfolio
 		pointer-events: none;
 		font-size: 14px;
 		font-weight: 500;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;	
 		color: #000;
 		opacity:0;
 		visibility:hidden;
@@ -1295,7 +1301,9 @@ Primary use:	Showcase Portfolio
 	
 	.showcase-list li {
 		font-weight: 600;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;	
 		font-size: 30px;
 		line-height: 48px;
 		list-style: none;
@@ -1326,6 +1334,7 @@ Primary use:	Showcase Portfolio
 		text-transform: uppercase;
 		letter-spacing: .05em;	
 		font-family: 'Oswald', sans-serif;
+		letter-spacing: .05em;	
 	}
 	
 	.light-content .showcase-list li a {
@@ -1441,7 +1450,9 @@ Primary use:	Showcase Portfolio
 	.hero-title {
 		font-size: 48px;
 		font-weight: 600;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;	
 		color: #f40437;
 		position:relative;
 		z-index:10;
@@ -1665,7 +1676,9 @@ Primary use:	Showcase Portfolio
 		color: #e6d9ce;		
 		font-size:14px;
 		font-weight: 500;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;	
 		display: block;
 		-webkit-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
