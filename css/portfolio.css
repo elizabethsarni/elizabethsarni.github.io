@@ -490,7 +490,8 @@
 	.nav-project-title {
 		font-weight: 600;
 		font-family: 'Oswald', sans-serif;
-		letter-spacing: .05em;
+		text-transform: uppercase;
+		letter-spacing: .03em;
 		font-size:26px;
 		line-height:40px;	
 		display:inline-block;
