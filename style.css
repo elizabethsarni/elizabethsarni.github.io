@@ -470,7 +470,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.title-has-line::after {
-		background: none repeat scroll 0 0 #ccc;
+		background: none repeat scroll 0 0 #fff;
 		bottom: 20px;
 		content: "";
 		height: 1px;
