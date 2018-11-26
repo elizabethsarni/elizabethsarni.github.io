@@ -885,18 +885,18 @@ Primary use:	Showcase Portfolio
 	
 	.flexnav li {    
 		background: transparent none repeat scroll 0 0;
-		margin-left:80px;
+		margin-left:40px;
 	}
 	
-	.flexnav li::after {
+	/*.flexnav li::after {
 		width: 20px;
 		height: 1px;
 		position: absolute;
 		content: "";
-		background-color: rgba(244,4,55,0.2);
+		background-color: white;
 		left: -50px;
 		bottom: 30px;
-	}
+	}*/
 	
 	.flexnav li:first-child::after, .flexnav li ul li::after {
 		display:none;
@@ -1152,7 +1152,7 @@ Primary use:	Showcase Portfolio
 		float: right;
 		box-sizing: border-box;
 		padding: 8px 0;
-		margin-left: 60px;
+		margin-left: 40px;
 		cursor:pointer;
 		-webkit-transition: 0.1s ease-in-out;
 		transition: 0.1s ease-in-out;
@@ -1638,7 +1638,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.socials-text li {
-		margin-right: 60px;
+		margin-right: 40px;
 		margin-left: 0px;
 		list-style:none;
 		display:inline-block;
@@ -1649,7 +1649,7 @@ Primary use:	Showcase Portfolio
 		position:relative;
 	}
 	
-	.socials-text li::after {
+	/*.socials-text li::after {
 		width: 20px;
 		height: 1px;
 		position: absolute;
@@ -1657,7 +1657,7 @@ Primary use:	Showcase Portfolio
 		background-color: rgba(244,4,55,0.2);
 		left: -40px;
 		bottom: 15px;
-	}
+	} */
 	
 	.socials-text li:first-child::after {
 		display:none;
