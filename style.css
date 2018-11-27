@@ -1478,7 +1478,7 @@ Primary use:	Showcase Portfolio
 		line-height: 60px;
 		height: 60px;
 		overflow: hidden;
-		padding-top: 40px;
+		padding-top: 50px;
 		box-sizing: border-box;
 		font-family: 'Oswald', sans-serif;
 		text-transform: uppercase;
@@ -1512,7 +1512,7 @@ Primary use:	Showcase Portfolio
 		width: 100%;
 		z-index: 10;
 		margin-left:7px;
-		line-height:30px;
+		line-height:40px;
 		-webkit-transition: color 0.2s ease-in-out 0s !important;
 		transition: color 0.2s ease-in-out 0s !important;
 	}
