@@ -1492,14 +1492,14 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.hero-subtitle {
-		font-size: 24px;
+		font-size: 14px;
 		font-family: 'Oswald', sans-serif;
 		text-transform: uppercase;
 		color: #e6d9ce;
 		letter-spacing: .04em;
 		width: 100%;
 		z-index: 10;
-		margin-left:5px;
+		margin-left:0px;
 		line-height:40px;
 		-webkit-transition: color 0.2s ease-in-out 0s !important;
 		transition: color 0.2s ease-in-out 0s !important;
