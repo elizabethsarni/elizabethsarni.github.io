@@ -1994,6 +1994,11 @@ Primary use:	Showcase Portfolio
     	padding: 70px 0 110px 0;
 	}
 	
+	.socials-text2 li {
+		float: left;
+		margin:0 20px 0 0 auto!important;
+	}
+	
 	.full .container {
 		padding: 0 100px;
 	}
@@ -2116,6 +2121,11 @@ Primary use:	Showcase Portfolio
 	
 	.showcase-list li a {
     	padding: 15px 25px;
+	}
+
+	.socials-text2 li {
+		float: left;
+		margin:0 20px 0 0 auto!important;
 	}
 	
 	#menu-overlay .copyright {
@@ -2274,6 +2284,10 @@ Primary use:	Showcase Portfolio
 		margin:0 auto!important;
 	}
 	
+	.socials-text2 li {
+		float: left;
+		margin:0 20px 0 0 auto!important;
+	}
 }
 
 
