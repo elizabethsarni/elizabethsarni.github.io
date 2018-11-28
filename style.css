@@ -1482,7 +1482,7 @@ Primary use:	Showcase Portfolio
 		font-family: 'Oswald', sans-serif;
 		text-transform: uppercase;
 		color: #f40437;
-		letter-spacing: .04em;
+		letter-spacing: .06em;
 	}
 	
 	.animate .hero-title span {
@@ -1500,7 +1500,7 @@ Primary use:	Showcase Portfolio
 		width: 100%;
 		z-index: 10;
 		margin-left:0px;
-		line-height:40px;
+		line-height:70px;
 		-webkit-transition: color 0.2s ease-in-out 0s !important;
 		transition: color 0.2s ease-in-out 0s !important;
 	}
