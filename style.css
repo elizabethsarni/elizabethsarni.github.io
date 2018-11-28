@@ -484,7 +484,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	p {
-		font-size:14px;
+		font-size:15px;
 		margin-bottom:10px;
 		line-height:28px;
 		color:black;
@@ -1651,6 +1651,18 @@ Primary use:	Showcase Portfolio
 		bottom: 0;
 		display: table;
 	}
+
+	.socials-text2 {
+		height: auto;
+		line-height: 25px;
+		position: relative;
+		width: auto;
+		margin: 0;
+		margin-bottom: 0px;
+		text-align: center;
+		bottom: 0;
+		display: table;
+	}
 	
 	.socials-text li {
 		margin-right: 40px;
@@ -1663,7 +1675,20 @@ Primary use:	Showcase Portfolio
 		line-height:30px;
 		position:relative;
 	}
+
+	.socials-text2 li {
+		margin-right: 40px;
+		margin-left: 0px;
+		list-style:none;
+		display:inline-block;
+		color: #f40437;
+		font-size:15px;
+		margin-bottom:0;
+		line-height:30px;
+		position:relative;
+	}
 	
+
 	/*.socials-text li::after {
 		width: 20px;
 		height: 1px;
@@ -1678,7 +1703,11 @@ Primary use:	Showcase Portfolio
 		display:none;
 	}
 	
-	.light-content .socials-text li::after {
+	.light-content .socials-text  li::after {
+		background-color: #e6d9ce;
+	}
+
+	.light-content .socials-text2  li::after {
 		background-color: #e6d9ce;
 	}
 
@@ -1698,6 +1727,18 @@ Primary use:	Showcase Portfolio
 		-webkit-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
 	}
+
+	.socials-text2 li a {
+		color: #e6d9ce;		
+		font-size:18px;
+		font-weight: 500;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .02em;	
+		display: block;
+		-webkit-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
 	
 	.socials-text:hover li  a {
 		color: #e6d9ce;
@@ -1708,6 +1749,10 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.socials-text li a:hover {
+		color: #f40437;
+	}
+
+	.socials-text2 li a:hover {
 		color: #f40437;
 	}
 	
