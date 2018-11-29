@@ -1722,7 +1722,7 @@ Primary use:	Showcase Portfolio
 		font-weight: 500;
 		font-family: 'Oswald', sans-serif;
 		text-transform: uppercase;
-		letter-spacing: .02em;	
+		letter-spacing: .04em;	
 		display: block;
 		-webkit-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
@@ -1730,11 +1730,11 @@ Primary use:	Showcase Portfolio
 
 	.socials-text2 li a {
 		color: #e6d9ce;		
-		font-size:18px;
+		font-size:15px;
 		font-weight: 500;
 		font-family: 'Oswald', sans-serif;
 		text-transform: uppercase;
-		letter-spacing: .02em;	
+		letter-spacing: .04em;	
 		display: block;
 		-webkit-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
