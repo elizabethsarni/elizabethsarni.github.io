@@ -1738,6 +1738,7 @@ Primary use:	Showcase Portfolio
 		display: block;
 		-webkit-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
+		
 	}
 	
 	.socials-text:hover li  a {
