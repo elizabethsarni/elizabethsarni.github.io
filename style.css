@@ -540,7 +540,7 @@ Primary use:	Showcase Portfolio
 	
 	a:hover, a:active {
 	  outline: 0;
-	  color: #000;
+	  color: #f40437;
 	}
 	
 	a {
@@ -1738,7 +1738,8 @@ Primary use:	Showcase Portfolio
 		display: block;
 		-webkit-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
-		
+		float: left;
+		margin:0 20px 0 0 auto!important;
 	}
 	
 	.socials-text:hover li  a {
