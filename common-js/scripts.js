@@ -1,5 +1,12 @@
 
 	
+
+	$('a[href="#"]').on('click', function(event){
+		return;
+	});
+	
+
+
 (function ($) {
 
     "use strict";
@@ -32,12 +39,17 @@
 				+ '<div class="time-sec"><h3 class="main-time">%S</h3> <span>Sec</span></div>'));
 		});
 	}
-	
-	
-	$('a[href="#"]').on('click', function(event){
-		return;
-	});
-	
+
+
+
+
+	$(window).load(function() {
+		$('.preloader').fadeOut('slow');
+	 });
+
+
+
+
 	// COUNTDOWN TIME 
 	
 	countdownTime();
