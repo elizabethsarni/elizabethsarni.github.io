@@ -128,7 +128,7 @@ b.light-color{ color: #444; }
 .main-area{ position: relative; height: 100vh; z-index: 1; padding: 0 20px; background-size: cover; color: #f0dddb; margin-left:auto; margin-right: auto; background-position: center; }
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
-	opacity: 0; background: #ebe3de; }
+	opacity: 1; background: #ebe3de; }
 
 .main-area .desc{ margin: 20px auto; max-width: 300px; }
 	
