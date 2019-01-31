@@ -4182,7 +4182,7 @@ img.rounded {
             user-select: none;
     text-transform: uppercase;
     transition: .5s all;
-    background-color: #252525;
+    background-color: none;
 }
 
 .nk-btn, .nk-btn:hover, .nk-btn.hover, .nk-btn:active, .nk-btn.active, .nk-btn:focus {
