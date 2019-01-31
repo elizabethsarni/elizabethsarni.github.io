@@ -1,223 +1,208 @@
 <!DOCTYPE html>
-<html>
+<!--
+  Name: Snow - Minimal & Clean Portfolio HTML Template
+  Version: 1.1.3
+  Author: nK, unvab
+  Website: https://nkdev.info, http://unvab.com/
+  Purchase: https://nkdev.info
+  Support: https://nk.ticksy.com
+  License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+  Copyright 2019.
+-->
+
+<html lang="en">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>land of sarni</title>
-	<meta name="author" content="Liz Sarni" />
-	<meta name="description" content="Liz Sarni" />
-	<meta name="keywords"  content="pile,piling,piling.js,stack,pages,scrolling,stacking,touch,fullpile,scroll,plugin,jquery" />
-	<meta name="Resource-type" content="Document" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="imgs/favicon-32x32.png">
-	<link rel="apple-touch-icon-precomposed" href="imgs/favicon-32x32.png">
+    <title>land of sarni | selected works</title>
 
-	<!-- Bootstrap CSS -->
-    <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='screen' />
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Playfair+Display:400,400i,900" rel="stylesheet">
+    <meta name="description" content="Snow - Clean & Minimal Portfolio HTML template.">
+    <meta name="keywords" content="portfolio, clean, minimal, blog, template, portfolio website">
+    <meta name="author" content="nK">
 
-	<link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png">
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<script type="text/javascript" src="jquery.pagepiling.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-			* Plugin intialization
-			*/
-	    	$('#pagepiling').pagepiling({
-	          	direction: 'horizontal',
-	    		menu: '#menu',
-	    		anchors: ['', 'selectedworks', 'info', 'page4'],
-			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
-			    navigation: {
-			    	'position': 'right',
-			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
-			   	},
-			    afterRender: function(){
-			    	$('#pp-nav').addClass('custom');
-			    },
-			    afterLoad: function(anchorLink, index){
-			    	if(index>1){
-			    		$('#pp-nav').removeClass('custom');
-			    	}else{
-			    		$('#pp-nav').addClass('custom');
-			    	}
-			    }
-			});
-	    });
-    </script>
+    <!-- START: Styles -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Playfair+Display:400,400i,900" rel="stylesheet">
 
 
-    <style>
-	#section1 img{
-		opacity: 1;
-		width:100px;
-		height: auto;
-	}
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
-		#section2 img{
-		opacity: 1;
-		width:100px;
-		height: auto;
-		padding: 20px 0 0 0;
-	}
+    <!-- FontAwesome -->
+    <script defer src="assets/bower_components/fontawesome/js/all.js"></script>
+    <script defer src="assets/bower_components/fontawesome/js/v4-shims.js"></script>
 
-		#section3 img{
-		opacity: 1;
-		width:100px;
-		height: auto;
-		padding: 20px 0 0 0;
-	}
-	</style>
+    <!-- Stroke 7 -->
+    <link rel="stylesheet" href="assets/bower_components/pixeden-stroke-7-icon/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+
+    <!-- Flickity -->
+    <link rel="stylesheet" href="assets/bower_components/flickity/dist/flickity.min.css">
+
+    <!-- Photoswipe -->
+    <link rel="stylesheet" type="text/css" href="assets/bower_components/photoswipe/dist/photoswipe.css">
+    <link rel="stylesheet" type="text/css" href="assets/bower_components/photoswipe/dist/default-skin/default-skin.css">
+
+    <!-- Snow -->
+    <link rel="stylesheet" href="assets/css/snow.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- END: Styles -->
+
+    <!-- jQuery -->
+    <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+    
+    <!-- animsition.css -->
+    <link rel="stylesheet" href="../dist/css/animsition.min.css">
+
+
 
 </head>
-<body>
 
 
-	<div id="pagepiling">
-		
-		<div class="section section1" id="section1">
-			<div class="fixed-top">
-				<a href="index.html" class="nohover"><img src="imgs/sarni-04.png" alt="Sarni Logo" /></a>
-			</div>
+<!--
+    Additional Classes:
+        .nk-bg-gradient
+-->
 
-			<div class="center-div">
-				<h1>Liz Sarni is a product & visual designer in California.</h1>
-			</div>
+<body style="background-color: #a74506;">
 
-			<div class="fixed-bottom">
-					<a href="https://www.instagram.com/parmesarni/" target="blank">follow</a>
-					<a href="https://www.linkedin.com/in/lizsarni/" target="blank">resume</a>
-			</div>
-		</div>
+<div class="animsition-overlay" data-animsition-overlay="true" data-animsition-in-class="overlay-slide-in-top" data-animsition-in-duration="1000" data-animsition-out-class="overlay-slide-out-top" data-animsition-out-duration="800">
 
+    <header class="nk-header nk-header-opaque">
+        <!--
+        START: Navbar
 
+        Additional Classes:
+            .nk-navbar-lg
+            .nk-navbar-sticky
+            .nk-navbar-autohide
+            .nk-navbar-transparent
+            .nk-navbar-transparent-always
+            .nk-navbar-white-text-on-top
+    -->
+        <nav class="nk-navbar nk-navbar-top">
+            <div class="container text-center">
+                <div class="nk-nav-table">
 
+                    <a href="index.html" class="nk-nav-logo">
 
-			
-	    <!--<div class="section section2 pp-scrollable" id="section2">
-				<div class="intro">
+                        <img src="assets/img/sarni-04.png" alt="" width="100">
+                    </a>
 
-						<div class="fixed-top">
-								<a href="index.html" class="nohover"><img src="imgs/sarni-04-orange.png" alt="Sarni Logo" /></a>
-							</div>
+                </div>
+            </div>
+        </nav>
+        <!-- END: Navbar -->
 
-					<div class="wrapper">
-						<div class="row">
-
-						<div class="col-md-4">
-						  <div class="thumbnail hover08">
-								<figure><a href="ccc.html"><img src="imgs/ccc/ccc-home.gif" alt="Lights" style="width:200px; height:200px"></figure></a>
-							  	<div class="caption">
-									<p class="title" style="margin-top: 10px;">Cocktail Camper Co.</p>
-									<p class="title2" style="margin-top: 5px;">Branding, Web Design, Art Direction</p>
-								</div>
-						  </div>
-						</div>
-
-						<div class="col-md-4">
-						  <div class="thumbnail hover08">
-							  		<figure><img src="imgs/comingsoon-07.png" alt="Nature" style="width:200px; height:200px;"></figure>
-							  	<div class="caption">
-								<p class="title" style="margin-top: 10px;">coming soon: inthebag</p>
-								<p class="title2" style="margin-top: 5px;">App Design, UX</p>								
-							</div>
-						  </div>
-						</div>
-
-						<div class="col-md-4">
-						  <div class="thumbnail hover08">
-								<figure><img src="imgs/who/sample.jpg" alt="Fjords" style="width:200px; height:200px"></figure>
-							  	<div class="caption">
-										<p class="title" style="margin-top: 10px;">Talent Connection</p>
-										<p class="title2" style="margin-top: 5px;">Branding, Web Design, Art Direction</p>
-									</div>
-						  </div>
-						</div>
-					</div>
-
-					<div class="row">
-
-							<div class="col-md-4">
-							  <div class="thumbnail hover08">
-									<div>
-											<figure><img src="imgs/who/sample.jpg" alt="Lights" style="width:200px; height:200px"></figure>
-									  </div>
-									  <div class="caption">
-											<p class="title" style="margin-top: 10px;">Fb Ad</p>
-											<p class="title2" style="margin-top: 5px;">Web Design</p>	
-									</div>
-							  </div>
-							</div>
-	
-							<div class="col-md-4 hover08">
-							  <div class="thumbnail">
-									<div>
-											<figure><img src="imgs/who/sample.jpg" alt="Nature" style="width:200px; height:200px"></figure>
-									  </div>
-									  <div class="caption">
-											<p class="title" style="margin-top: 10px;">Lloyd: The Bartender</p>
-											<p class="title2" style="margin-top: 5px;">App Design, Branding</p>	
-									</div>
-							  </div>
-							</div>
-	
-							<div class="col-md-4 hover08">
-							  <div class="thumbnail">
-									<figure><img src="imgs/hr/hr-home.gif" alt="Fjords" style="width:200px; height:200px"></figure>
-									  <div class="caption">
-											<p class="title" style="margin-top: 10px;">HR Support Team</p>
-											<p class="title2" style="margin-top: 5px;">Branding</p>
-									</div>
-							  </div>
-							</div>
-						</div>
-					</div>
-
-					
-						<div class="fixed-bottom">
-								<a href="https://dribbble.com/lizsarni" target="_blank">archive</a>
-								<a href="index.html#info">information</a>
-						</div>
-
-					</div>
-				</div>
-		
-	    <div class="section section3" id="section3">
-	    	<div class="intro wrapper">
-
-					<div class="fixed-top">
-						<a href="index.html" class="nohover"><img src="imgs/sarni-04.png" alt="Sarni Logo" /></a>
-					</div>
+    </header>
 
 
-					<div class="container-fluid">
-							<div class="row" >
-							  <div class="col-sm-6 rightcolumn">
-									<img src="imgs/who/liz-2 2.jpg" style="width: 80%;">
-							  </div>
-							  <div class="col-sm-6">
-									<h2>Liz Sarni is a product & visual designer in California. Fueled by curosity, she creates innovative experiences in both the print and digital realm.</h2>
-									<p>Liz Sarni is a product & visual designer in California. Fueled by curosity, she creates innovative experiences in both the print and digital realm.</p>
-							  </div>
-							</div>
-						  </div>
+    <div class="nk-main" style="padding: 20px;">
 
-				</div>
+        <!-- START: Digital. Modern. Creative -->
+        <div class="container" style="text-align:center;">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                        <div class="nk-gap-6"></div>
+                        <div class="nk-gap-6"></div>
 
-		
-			<div class="fixed-bottom">
-					<a href="mailto:lizsarni@gmail.com">contact</a>
-					<a href="https://www.instagram.com/parmesarni/" target"_blank">follow</a>
-					<a href="https://www.linkedin.com/in/lizsarni/" target"_blank">resume</a>
-			</div>-->
-		</div>
+                    <h3 class="nk-title display-3 text-white">
+                            <em class="fw-400">Liz Sarni</em>
+                            is a product & <br>visual designer in
+                        <em class="fw-400">california.</em>
+                    </h3>
+
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-2 mnt-7"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END: Digital. Modern. Creative -->
+    </div>
+
+        <footer class="nk-footer nkfooter2 nk-footer-transparent" style="position: fixed;">
+
+
+            <div class="nk-footer-cont">
+                <div class="container text-center">
+                    <div class="nk-footer-social">
+                        <ul>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="selectedworks.html" >selected works</a></li>
+                            <li><a href="https://www.instagram.com/parmesarni/"target="_blank" >follow</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END: Footer -->
+</div>
+
+    <!-- START: Scripts -->
+
+    <!-- GSAP -->
+    <script src="assets/bower_components/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="assets/bower_components/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/bower_components/tether/dist/js/tether.min.js"></script>
+    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- nK Share -->
+    <script src="assets/plugins/nk-share/nk-share.js"></script>
+
+    <!-- Sticky Kit -->
+    <script src="assets/bower_components/sticky-kit/dist/sticky-kit.min.js"></script>
+
+    <!-- Jarallax -->
+    <script src="assets/bower_components/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/bower_components/jarallax/dist/jarallax-video.min.js"></script>
+
+    <!-- Flickity -->
+    <script src="assets/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
+
+    <!-- Isotope -->
+    <script src="assets/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Photoswipe -->
+    <script src="assets/bower_components/photoswipe/dist/photoswipe.min.js"></script>
+    <script src="assets/bower_components/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+
+    <!-- Jquery Form -->
+    <script src="assets/bower_components/jquery-form/dist/jquery.form.min.js"></script>
+
+    <!-- Jquery Validation -->
+    <script src="assets/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <!-- Hammer.js -->
+    <script src="assets/bower_components/hammer.js/hammer.min.js"></script>
+
+    <!-- Social Likes -->
+    <script src="assets/bower_components/social-likes/dist/social-likes.min.js"></script>
+
+    <!-- NanoSroller -->
+    <script src="assets/bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
+
+    <!-- Keymaster -->
+    <script src="assets/bower_components/keymaster/keymaster.js"></script>
+
+    <!-- Snow -->
+    <script src="assets/js/snow.min.js"></script>
+    <script src="assets/js/snow-init.js"></script>
+    <!-- END: Scripts -->
+
 
 
 </body>
+
 </html>
