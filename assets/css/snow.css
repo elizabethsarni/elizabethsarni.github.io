@@ -841,6 +841,7 @@ a:hover, a:visited, a:link, a:active
 .nk-img-fit,
 .nk-img {
     max-width: 100%;
+    
 }
 
 @media (max-width: 575px) {
