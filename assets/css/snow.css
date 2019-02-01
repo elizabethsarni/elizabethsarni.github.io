@@ -88,6 +88,7 @@ body {
     font-size: 12px;
 }
 
+
 .nk-main {
     position: relative;
     background-color:#a74506;
@@ -500,13 +501,18 @@ div.lead-sm {
 h1, .h1,
 h2, .h2,
 h3, .h3,
-h4, .h4,
 h5, .h5,
 h6, .h6 {
     font-family: "Playfair Display", serif;
     color: #171717;
     font-weight: bold;
     margin-bottom: .8rem;
+}
+
+h4, .h4, a {
+    font-family: "playfair display", serif;
+    font-size: 10px;
+    color:white;
 }
 
 .display-1,
@@ -530,7 +536,8 @@ h6, .h6 {
 }
 
 .display-4 {
-    font-size: 2.6rem;
+    font-size: 2rem;
+    padding: 0px 30px 0px 30px;
 }
 
 .h2, h2 {
@@ -591,7 +598,7 @@ a:hover, a:visited, a:link, a:active
 
  -------------------------------------------------------------------*/
 .row.vertical-gap > [class*='col-'] {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .row.vertical-gap {
@@ -4045,6 +4052,7 @@ img.rounded {
     background-color: none;
     z-index: 1;
     bottom: 0;
+
 }
 
 .nk-footer2 {
@@ -4066,8 +4074,8 @@ img.rounded {
 }
 
 .nk-footer .nk-footer-widgets {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nk-footer .nk-footer-widgets + .nk-footer-cont {
@@ -4131,7 +4139,7 @@ img.rounded {
 }
 
 .nk-widget .nk-widget-title {
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin-bottom: 2.1rem;
 }
 
