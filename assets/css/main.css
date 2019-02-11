@@ -256,7 +256,7 @@ h6 {
 }
 
 p.lead {
-	font-size: 14px;
+	font-size: 12px;
 	font-family: "open sans", sans-serif;
 }
 
@@ -1331,6 +1331,13 @@ blockquote:not(:last-child) {
 	margin-bottom: 10px;
 }
 
+.date2 {
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
 .posts__list .post .post__title {
 	font-weight: 700;
 }
@@ -1456,6 +1463,7 @@ blockquote:not(:last-child) {
 	font-size: 14px;
 	color: #b3b3b3;
 }
+
 
 .comments-list .comment .comment-content .comment-text {
 	margin-top: 15px;
