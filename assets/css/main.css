@@ -800,8 +800,14 @@ blockquote:not(:last-child) {
 }
 
 span {
-	color: #7C8F62;
+	color: black;
 }
+
+span:hover {
+	color: #7C8F62;
+	font-style: italic;
+}
+
 
 .hover2:hover {
 border-bottom:1px solid #7C8F62;
