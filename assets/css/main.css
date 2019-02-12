@@ -35,7 +35,7 @@ http://themeforest.net/user/layerz
 	float: left;
 	position: relative;
 	min-height: 1px;
-	padding: 0 50px;
+	padding: 0 30px;
 }
 
 .column.col-1 {
@@ -184,7 +184,7 @@ body {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'work Sans', sans-serif;
 	font-size: 14px;
 	color: #111111;
 	line-height: 1.7;
@@ -218,25 +218,32 @@ h5,
 h6 {
 	font-family: 'Italiana', serif;
 	text-transform: uppercase;
-	font-weight:200;
 	font-style: normal;
 	color: #111111;
+	font-weight:400;
 }
 
 .big-title {
-	font-size: 50px;
+	font-size: 55px;
+	line-height: 60px;
+
+}
+
+.small-title {
+	font-size: 10px;
 }
 
 h1 {
-	font-size: 65px;
+	font-size: 40px;
+	line-height: 45px;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 40px;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 28px;
 }
 
 h4 {
@@ -244,7 +251,10 @@ h4 {
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 15px;
+	margin-top: 30px;
+	letter-spacing:.5px;
+	font-weight: 200;
 }
 
 h6 {
@@ -252,11 +262,18 @@ h6 {
 	font-family: 'Work Sans';
 	font-size: 11px;
 	letter-spacing: 1px;
+	margin-top: 30px;
 }
 
 p.lead {
 	font-size: 12px;
 	font-family: "open sans", sans-serif;
+	font-weight: 200;
+}
+
+u {
+	text-decoration:underline;
+	line-height:1px;
 }
 
 @media (max-width:600px) {
@@ -573,7 +590,7 @@ p:not(:last-child),
 ul:not(:last-child),
 ol:not(:last-child),
 blockquote:not(:last-child) {
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 .loader-mask {
@@ -659,7 +676,7 @@ blockquote:not(:last-child) {
 
 .header .menu li a {
 	display: block;
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 500;
 	position: relative;
 	padding: 0 25px;
@@ -669,7 +686,13 @@ blockquote:not(:last-child) {
 
 .header .menu li a:hover,
 .header .menu li a.active {
-	color: black;
+	color: #7C8F62;
+	border-bottom: none;
+}
+
+.main-logo:hover {
+	color: #7C8F62;
+
 }
 
 .header .menu li a.parent:after {
@@ -728,7 +751,8 @@ blockquote:not(:last-child) {
 
 .header .menu li .submenu li a.active,
 .header .menu li .submenu li a:hover {
-	color: #b3b3b3;
+	color: #7C8F62;
+	border-bottom: none;
 }
 
 .header .menu li .submenu li:last-child a {
@@ -748,7 +772,7 @@ blockquote:not(:last-child) {
 	margin-top: 65px;
 }
 
-.header .trigger__subnav span {
+.header .trigger__subnav {
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
@@ -774,6 +798,19 @@ blockquote:not(:last-child) {
 .header .trigger__subnav:hover span {
 	background: #7C8F62;
 }
+
+span {
+	color: #7C8F62;
+}
+
+.hover2:hover {
+border-bottom:1px solid #7C8F62;
+}
+
+.link3:hover {
+	border-bottom:1px solid white;
+}
+
 
 .header .mobile-nav {
 	width: 100%;
@@ -917,7 +954,7 @@ blockquote:not(:last-child) {
 ================================================== **/
 .footer {
 	text-align: center;
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .footer .copy {
@@ -927,11 +964,22 @@ blockquote:not(:last-child) {
 .footer .copy:before {
 	display: block;
 	content: '';
-	width: 2px;
+	width: 0px;
 	height: 30px;
+	margin: 0 auto;
+	background: #111111;
+}
+
+hr {
+	display: block;
+	content: '';
+	width: 85%;
+	height: 1px;
 	margin: 0 auto 50px;
 	background: #111111;
 }
+
+
 
 .footer .social {
 	margin-bottom: 0;
@@ -1042,7 +1090,7 @@ blockquote:not(:last-child) {
 .entry .entry__overlay .entry__overlay__content .subtitle {
 	display: block;
 	position: relative;
-	font-size: 12px;
+	font-size: 10px;
 	color: black;
 	margin-bottom: 10px;
 	top: 10px;
@@ -1604,6 +1652,7 @@ blockquote:not(:last-child) {
 
 .social li a:hover {
 	color: #7C8F62;
+	border-bottom: none;
 }
 
 .social li:first-child a {
