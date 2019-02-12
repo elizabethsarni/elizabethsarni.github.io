@@ -38,6 +38,13 @@ http://themeforest.net/user/layerz
 	padding: 0 30px;
 }
 
+.column2 {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding: 0 60px;
+}
+
 .column.col-1 {
 	width: 8.333%;
 }
