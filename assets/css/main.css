@@ -694,7 +694,7 @@ blockquote:not(:last-child) {
 .header .menu li a:hover,
 .header .menu li a.active {
 	color: black;
-	border-bottom:1px solid black;
+	border-bottom:none;
 }
 
 .main-logo:hover {
