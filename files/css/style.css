@@ -616,7 +616,7 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background: #F2F2ED;
+	background: #FFFFFF;
 	z-index: 9;
 	}	
 	
@@ -903,7 +903,7 @@ header.header-open nav#main-nav ul > li { transition: none; top: 0px; opacity: 1
 ------------------------------------------------*/
 footer {
 	width: 100%;
-	background: #F2F2ED;
+	background: #FFFFFF;
 	position: relative;
 	font-size: 13px;
 	line-height: 23px;
@@ -920,7 +920,7 @@ footer .copyright {
 	font-family: 'work sans', sans-serif;
 	text-transform: uppercase;
 	font-size:10px;
-	background-color:#F2F2ED;
+	background-color:#FFFFFF;
 	text-align: center !important;
 
 	}
