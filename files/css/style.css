@@ -106,7 +106,7 @@ font-style: normal;
 	background: #ffffff;
 	min-height: 100%;
 	}
-::selection { background:#000000; color:#ffffff; }
+::selection { background:none; color:#ffffff; }
 ::-moz-selection { background:#000000; color:#ffffff; }
 ::-webkit-selection { background:#000000; color:#ffffff; }
 
@@ -2042,7 +2042,7 @@ letter-spacing:1px;
   	width: 100%;
   	height: 100%;
   	z-index: 100001;					/* big z-index for revolution slider */
-  	background: black;
+  	background: #edd5c9;
 	-webkit-transition: opacity 0.4s ease;
 	   -moz-transition: opacity 0.4s ease;
 	    -ms-transition: opacity 0.4s ease;
@@ -2080,7 +2080,7 @@ letter-spacing:1px;
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	stroke: white;
+	stroke: black;
 	stroke-dashoffset: 1000;
 	stroke-dasharray: 1000;
 	stroke-width: 5;
