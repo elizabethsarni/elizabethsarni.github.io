@@ -121,7 +121,7 @@ font-style: normal;
 	color: #000000;
 	}
 	h1 i, h2 i, h3 i, h4 i, h5 i, h6 i, h1 em, h2 em, h3 em, h4 em, h5 em, h6 em { font-style: italic; }
-	h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong { font-weight: 700; }
+	h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong { font-weight: 400; }
 	.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6,
 	h1.text-light, h2.text-light, h3.text-light, h4.text-light, h5.text-light, h6.text-light { color: #ffffff; }
 
@@ -139,7 +139,7 @@ text-transform: uppercase;
 letter-spacing: .1em;}
 h4 { font-size: 24px; line-height: 35px; }
 h5 { font-size: 20px; line-height: 31px; }
-h6 { font-size: 16px; line-height: 25px; }
+h6 { font-size: 13px; line-height: 25px; letter-spacing:.5px;}
 	
 /* Headers Spacing */
 div h1, div h2, div h3, div h4, div h5, div h6 { margin-top: 30px; }
@@ -389,6 +389,7 @@ a {
 	-webkit-tap-highlight-color:rgba(0,0,0,0.0);
 	color: #000000;
 	transition: color 0.15s ease;
+	
 	}
 	a:hover {}
 
@@ -1607,10 +1608,10 @@ font-size:11px;
 	}
 	
 .portfolio-category + .portfolio-name {
-	margin-top: 0px;
-	font-size:13px;
+	margin-top: 10px;
+	font-size: 12px;
 	font-family: termina, sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-style: normal;
 letter-spacing:1px;
 	}
@@ -2475,6 +2476,7 @@ letter-spacing:1px;
 .isotope-grid .isotope-item {
 	margin-right: 0px;
 	margin-bottom: 0px;
+	padding-bottom: 70px;
 	float: left;
 	overflow: hidden; /* disabled for shop grid > sale but lead to issue on animations */
 	position: relative;
@@ -2821,7 +2823,7 @@ div .column-section:first-child { margin-top: 0px; }
 	display: block;
 	width: 100%;
 	padding: 30% 0;
-	position: relative
+	position: relative;
 	}
 	.thumb-hover .image-bg > span { 
 	display: block;
@@ -3096,11 +3098,45 @@ div .column-section:first-child { margin-top: 0px; }
 	filter: alpha(opacity=70);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	}
+	
+	/* HOVER HOVER HOVER */ 
 	.thumb-hover.text-light.overlay-effect:hover::before { 
 	opacity: .8;
 	filter: alpha(opacity=50);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	}
+
+	.tilt {
+		-webkit-transition: all 0.5s ease;
+		   -moz-transition: all 0.5s ease;
+			 -o-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+	  }
+	   
+	  .tilt:hover {
+		-webkit-transform: rotate(-5deg);
+		   -moz-transform: rotate(-5deg);
+			 -o-transform: rotate(-5deg);
+			-ms-transform: rotate(-5deg);
+				transform: rotate(-5deg);
+	  }
+
+	  .tilt2 {
+		-webkit-transition: all 0.5s ease;
+		   -moz-transition: all 0.5s ease;
+			 -o-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+	  }
+	   
+	  .tilt2:hover {
+		-webkit-transform: rotate(5deg);
+		   -moz-transform: rotate(5deg);
+			 -o-transform: rotate(5deg);
+			-ms-transform: rotate(5deg);
+				transform: rotate(5deg);
+	  }
 	
 .thumb-hover.overlay-effect:hover .caption-sub , .thumb-hover.overlay-effect:hover .caption-name { color: #000000; }	
 .thumb-hover.text-light.overlay-effect:hover .caption-sub , .thumb-hover.text-light.overlay-effect:hover .caption-name { color: black; }	
