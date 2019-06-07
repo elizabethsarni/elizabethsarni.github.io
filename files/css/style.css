@@ -3053,25 +3053,11 @@ div .column-section:first-child { margin-top: 0px; }
 	
 
 	.thumb-hover.text-light.overlay-effect.black:hover::before { 
-		background-color: black;
+		background-color: white;
 		}
 		.thumb-hover.text-light.overlay-effect.black:hover::before { 
-			background-color: black;
+			background-color: white;
 			}
-
-	.thumb-hover.text-light.overlay-effect.pink:hover::before { 
-	background-color: #e5c9cf;
-	}
-
-	.thumb-hover.text-light.overlay-effect.orange:hover::before { 
-		background-color:  #d0442f;
-		}
-	
-
-
-
-
-
 
 	
 	/* .thumb-hover.overlay-effect.text-light.purple::before { 
@@ -3111,13 +3097,13 @@ div .column-section:first-child { margin-top: 0px; }
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	}
 	.thumb-hover.text-light.overlay-effect:hover::before { 
-	opacity: .9;
+	opacity: .8;
 	filter: alpha(opacity=50);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	}
 	
 .thumb-hover.overlay-effect:hover .caption-sub , .thumb-hover.overlay-effect:hover .caption-name { color: #000000; }	
-.thumb-hover.text-light.overlay-effect:hover .caption-sub , .thumb-hover.text-light.overlay-effect:hover .caption-name { color: #ffffff; }	
+.thumb-hover.text-light.overlay-effect:hover .caption-sub , .thumb-hover.text-light.overlay-effect:hover .caption-name { color: black; }	
 
 /* video hover */	
 .thumb-hover.play-on-hover:hover img {
